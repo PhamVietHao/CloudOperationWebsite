@@ -17,7 +17,7 @@
         // Replace 'your-region' with the actual AWS region
         $ssmClient = new SsmClient([
             'version' => 'latest',
-            'region'  => 'your-region',
+            'region'  => 'us-east-1',
         ]);
 
         // Replace with the actual names of the parameters in Parameter Store
